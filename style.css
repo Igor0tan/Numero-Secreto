@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url(button.css);
+:root{
+    --font-family: 'Josefin Sans', sans-serif;
+    --bg-color:#B4AEE8;
+    --cor-primaria:#440A67;     
+ }
+
+body{
+    background-color: var(--bg-color);
+    color: var(--cor-primaria);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;   
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 4em;
+}
+ 
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    margin: 20px;
+}
+
